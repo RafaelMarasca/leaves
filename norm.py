@@ -47,14 +47,16 @@ def main():
             newpath = filepath[:-4]
             ski.io.imsave(newpath + '-Eq.png', img_eq)
 
-            #plt.imshow(img_eq)
-            #plt.show()
+            plt.imshow(img_eq)
+            plt.show()
 
             i = i + 1
 
         img /= i
         #salvar imagem média#####################
-
+        imgmean = img.astype(np.uint8)
+        ski.io.imsave(pseudoroot + '/' + folder + '/' + 'mean_img.png', imgmean)
+        
         img = img/255
         img[:, :, 0] = img[:, :, 0]*0.2125
         img[:, :, 1] = img[:, :, 1]*0.7154
