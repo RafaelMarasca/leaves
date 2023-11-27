@@ -4,12 +4,12 @@
     "height": "512px",
     "cameraBrand": "Apple",
     "cameraModel": "iPhone XR",
-    "expTime": "1/15s",
-    "expProg": "Auto",
-    "opVal": "F1.8",
-    "isoSpeed": "800",
+    "exposureTime": "1/15s",
+    "exposureProgram": "Auto",
+    "openingValue": "F1.8",
+    "isoSpeedRate": "800",
     "flash": "No, compulsory",
     "measureMode": "Multi-segment",
     "focalDistance" : "4.2 mm",
-    "sofrware" : "16.6"
+    "software" : "16.6"
 }
