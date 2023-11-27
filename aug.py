@@ -43,7 +43,7 @@ def image_mean(img):
 
 
 def main():
-    pseudoroot = 'folhas'
+    pseudoroot = 'folhas_augmented'
     for folder in sorted(os.listdir(pseudoroot)):
         print (folder)
 
